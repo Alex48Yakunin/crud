@@ -1,0 +1,80 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  max-width: 1024px;
+  margin: 0 auto;  
+
+  display: flex;
+  justify-content: center;
+
+  flex-flow: column;
+}
+
+.form__item {
+  display: flex;
+  flex-flow: column;
+  max-width: 400px;
+}
+
+.form__label {
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.form__textarea {
+  min-width: 400px;
+  min-height: 150px;
+  resize: none;
+  margin-top: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.form__btn {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.form__btn_add {
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+.form__btn_add:active {
+  background-color: rgb(5, 49, 5);
+}
+
+.note-list {
+  display: flex;
+  flex-flow: row wrap;
+
+  margin-bottom: 40px;
+}
+
+.note-list__name {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.note {
+  width: 400px;
+  min-height: 150px;
+
+  margin: 20px;
+
+  display: flex;
+  flex-flow: column;
+
+  border: 1px solid black;
+}
+
+.form__btn_remove {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.form__btn_remove:active {
+  background-color: rgb(150, 7, 7);
+}
