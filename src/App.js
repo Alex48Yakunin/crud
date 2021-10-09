@@ -36,8 +36,8 @@ class App extends Component {
   render(){
     return (
       <div className="App">
-       <NotesList notes={this.state.notes} handleRemove={this.handleRemove} />
-       <AddForm handleAdd={this.handleAdd}  />
+        <NotesList notes={this.state.notes} handleRemove={this.handleRemove} />
+        <AddForm handleAdd={this.handleAdd}  />
       </div>
     )
   }
