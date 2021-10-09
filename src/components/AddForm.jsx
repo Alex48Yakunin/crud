@@ -2,7 +2,7 @@ import { useState } from "react";
 import PropTypes from "prop-types";
 import { nanoid } from "nanoid";
 
-export default function AddForm({handleAdd, getData }){
+export default function AddForm({handleAdd}){
   const [form, setForm] = useState({content: null});
 
   const handleChange = (evt) => {
